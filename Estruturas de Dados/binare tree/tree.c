@@ -96,11 +96,11 @@ Node* delete_tree(Node* root, int e){
                 Node* aux = root->left;
                 free(root);
                 return aux;
-            }else { // quando há filho a direita e a esquerda
+            }else { 
                 Node* aux = minor_tree(root->right);
                 Tree treeAux = aux->tree;
-                root = delete_tree(root,treeAux.value); //removendo o elemento na folha a esquerda
-                root->tree = treeAux; // adicionando o elemento ao root
+                root = delete_tree(root,treeAux.value); 
+                root->tree = treeAux; 
                 
             }    
         } 
