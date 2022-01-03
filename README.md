@@ -1,2 +1,2 @@
-## Estruturas de dados
-Algumas estruturas feitas durante a disciplina de Estrutura de dados 
+# Algoritmos e estruturas de dados
+### códigos feitos durante a graduação de Engenharia de Software
